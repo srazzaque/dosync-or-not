@@ -1,6 +1,8 @@
 # dosync-or-not
 
-See http://blog.sandipan.net/
+This is the accompanying source code to:
+
+http://blog.sandipan.net/clojure/2016/07/09/clojure-ref.html
 
 ## Preparation
 
