@@ -10,3 +10,6 @@ pom.xml.asc
 .hgignore
 .hg/
 *~
+*.out
+*.out.trimmed
+the_chart.png

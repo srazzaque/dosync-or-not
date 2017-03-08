@@ -21,3 +21,16 @@ num-events = number of events to process
 num-threads = number of threads (only takes effect in dosync and atom tests).
 
 NOTE: num-events must be divisible by num-threads.
+
+
+## Getting the results
+
+```
+$ ./run_tests.sh
+(Wait for tests to finish)
+$ ./get_all_results.sh
+$ lein repl
+> (ns dosync-or-not.data)
+> (make-chart)
+(Now PNG will be available as 'the_chart.png')
+```
